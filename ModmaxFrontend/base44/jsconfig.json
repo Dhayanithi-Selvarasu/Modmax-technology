@@ -1,0 +1,16 @@
+
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".wrangler",
+    ".tanstack"
+  ]
+}
